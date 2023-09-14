@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="30dp"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:paddingVertical="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:src="@drawable/logo"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#131313"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3f4144"
+        android:text="Name"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_editbox"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:hint="Enter Name"
+        android:textColorHint="#56595d"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        android:inputType= 'text'
+        android:imeOptions="actionDone"
+        android:importantForAccessibility="yes"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3f4144"
+        android:text="Email"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_editbox"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:hint="Enter Email"
+        android:textColorHint="#56595d"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionDone"
+        android:importantForAccessibility="yes"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3f4144"
+        android:text="Contact Number"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_editbox"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:hint="Enter Contact Number"
+        android:textColorHint="#56595d"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        android:inputType="phone"
+        android:imeOptions="actionDone"
+        android:importantForAccessibility="yes"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3f4144"
+        android:text="Country"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+    />
+    <Spinner
+        android:id="@+id/spinnerCountry"
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded_editbox"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3f4144"
+        android:text="City"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+    />
+
+    <Spinner
+        android:id="@+id/spinnerCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_editbox"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/signUpTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:background="@drawable/rounded_orangebutton"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:paddingVertical="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+    />
+    <TextView
+        android:id="@+id/loginTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:textColor="#3f4144"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+    />
+
+
+</LinearLayout>
